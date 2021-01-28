@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <a class="logo f-left">
-        <img src="images/Logo.svg" alt="logo" />
-      </a>
+  <header class="header-wrapper">
+    <a class="logo f-left">
+      <img src="images/Logo.svg" alt="logo" />
+    </a>
+    <nav class="f-left">
       <ul class="f-left">
         <li class="list-items"><a href="index.html">home</a></li>
         <li class="list-items"><a href="index.html">news</a></li>
@@ -23,36 +23,46 @@
     </nav>
   </header>
   <section id="computer-section">
-    <div class="">
+    <div class="wrapper-image">
       <img src="images/Computer.jpg" alt="computer">
-      <h2 class="inner-img-text"></h2>
+      <h2 class="inner-img-text">
+        THINGS AREN'T ALWAYS <br>
+        #000000 <br>
+        OR <br>
+        #FFFFFF
+      </h2>
     </div>
   </section>
-  <section id="videos">
-    <h3 class="section-header"></h3>
-    <div class="video f-left">
+  <section id="video-section">
+    <div class="video-container">
+      <h3 class="section-header">VIDEOS | view all videos</h3>
+      <div class="video vid1 f-left">
 
-    </div>
-    <div class="video f-left">
+      </div>
+      <div class="video vid2 f-left">
 
+      </div>
     </div>
   </section>
-  <section id="news">
-    <div class="image-div">
-      <img src="" alt="">
-      <p class="img-desc"></p>
-    </div>
-    <div class="image-div">
-      <img src="" alt="">
-      <p class="img-desc"></p>
-    </div>
-    <div class="image-div">
-      <img src="" alt="">
-      <p class="img-desc"></p>
-    </div>
-    <div class="image-div">
-      <img src="" alt="">
-      <p class="img-desc"></p>
+  <section id="news-section">
+    <div class="news-container">
+      <h3 class="section-header">NEWS | view all news</h3>
+      <div class="image-div f-left">
+        <img src="images/News1.jpg" alt="news">
+        <p class="img-desc">TYPOGRAPHY LAB</p>
+      </div>
+      <div class="image-div f-left">
+        <img src="images/News2.jpg" alt="news">
+        <p class="img-desc">ONLINE MARKETING</p>
+      </div>
+      <div class="image-div f-left">
+        <img src="images/News3.jpg" alt="news">
+        <p class="img-desc">C# CODING</p>
+      </div>
+      <div class="image-div f-left">
+        <img src="images/News4.jpg" alt="news">
+        <p class="img-desc">INTERFACE DESIGN</p>
+      </div>
     </div>
   </section>
   <section id="media">
