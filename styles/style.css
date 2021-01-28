@@ -4,168 +4,45 @@
   box-sizing: border-box;
 }
 
-h3 {
-  font-family: 'ALK Sanet';
+a {
+  text-decoration: none;
 }
 
-body {
-  font-family: sans-serif;
+.f-left {
+  float: left;
 }
 
-/* nav and footer style */
-.main-container {
-  margin: 30px;
-}
-
-header {
-  margin-bottom: 35px;
-}
-
-.logo {
-  display: inline-block;
-  vertical-align: middle;
+.f-right {
+  float: right;
 }
 
 nav {
-  display: inline-block;
-  font-family: 'ALK Sanet';
-  vertical-align: middle;
-  margin-left: 20px;
+  padding: 10px;
+  width: 1170px;
+  margin: auto;
+  margin-top: 20px;
 }
 
-ul {
-  list-style-type: none;
+nav::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+nav ul {
+  height: 100%;
 }
 
 .list-items {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-}
-
-.current-page a {
-  color: red;
-}
-
-.featured {
-  margin-top: 117px;
-  margin-bottom: 30px;
+  list-style-type: none;
+  float: left;
   font-size: 24px;
-  font-weight: lighter;
-}
-
-.development {
-  margin-bottom: 68px;
-}
-
-.dev-info {
-  padding: 12px;
-  width: 570px;
-  display: inline-block;
-  background-color: #f2f2f2;
-}
-
-.dev-info h3 {
-  font-size: 22px;
-  font-weight: lighter;
-}
-
-.dev-info img {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 12px;
-}
-
-.dev-info p {
-  display: inline-block;
-  width: 60%;
-  font-size: 20px;
-  vertical-align: middle;
-  margin: 12px 12px 12px 30px;
-}
-
-.block2 {
-  margin-left: 29px;
-}
-
-footer {
-  margin-top: 32.6px;
-}
-
-.between-icon {
-  margin: 0 36px 0 36px;
-}
-
-/* news page style */
-.news {
-  margin-bottom: 40px;
-}
-
-.news-date {
-  font-size: 48px;
-  color: white;
-  background-color: rgb(0, 0, 186);
-  display: inline-block;
-  padding: 5px;
-}
-
-.news-month {
-  font-size: 22px;
-  margin-bottom: 12px;
-}
-
-.news-header {
-  margin-bottom: 17.5px;
-}
-
-.news img {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.news-paragraph {
-  display: inline-block;
-  font-size: 16px;
-  margin-left: 39px;
-  width: 75%;
-  vertical-align: top;
-}
-
-/* contact page style */
-
-.contact-container header,
-.contact-container footer {
-  margin: 30px;
-}
-
-.contact-section {
-  text-align: center;
-  padding: 52px;
-  background-color: #e6e6e6;
-  width: 100%;
-}
-
-.contact {
-  display: inline-block;
-  vertical-align: top;
-  text-align: start;
-}
-
-.contact h4 {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.map {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 44px;
-}
-
-p {
-  font-family: 'ALK Life' !important;
+  margin-left: 35px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
 }
